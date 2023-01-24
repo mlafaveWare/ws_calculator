@@ -19,6 +19,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("floor_calculator/", include("floor_calculator.urls")),
+    path("flow_ratio", include("flow_ratio.urls"))
 
 
 ]

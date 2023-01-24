@@ -8,7 +8,7 @@ def index(request):
 
 def post(request):
     if request != HttpResponseBadRequest:
-        #.write(request)
+        #.write(request)updated sketch of ws calculator. will perform area calculations in views layer when we have instructions. flow ratio is governed by user requirements yet to be defined. need data to populate and test on. 
         return HttpResponse("Request Posted")
     else:
         return("server side error")
