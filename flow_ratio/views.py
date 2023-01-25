@@ -10,3 +10,5 @@ def post(request):
         return HttpResponse("you need X sq ft 5 years from today to maintain your workspace")
     else:
         return HttpResponseServerError("server side error")
+
+
