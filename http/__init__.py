@@ -1,3 +1,4 @@
+import cookies
 from django.http.cookie import SimpleCookie, parse_cookie
 from django.http.request import (
     HttpHeaders,
@@ -26,6 +27,7 @@ from django.http.response import (
 )
 
 __all__ = [
+    "cookies",
     "SimpleCookie",
     "parse_cookie",
     "HttpHeaders",
